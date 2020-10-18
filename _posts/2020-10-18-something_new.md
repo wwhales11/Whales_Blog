@@ -9,9 +9,11 @@ category : stuffs
 
 
 
-사진 (/assests/images/yup.jpg/)
+사진 "/assests/images/yup.jpg/"
 
 or 
+
+'''c 
 
 #include <stdio.h>
 
@@ -19,6 +21,6 @@ int main() {
 	printf("Hello World");
 	return 0;
 };
-
+'''
 
 
