@@ -4,7 +4,7 @@ main:
     url: /year-archive/
   - title: "BMO!"
     url: /categories/
-  - title: "vim"
+  - title: "Vim"
     url: /vim/ 
   - title: "About"
     url: /about/
