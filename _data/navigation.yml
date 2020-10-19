@@ -2,9 +2,9 @@
 main:
   - title: "Posts"
     url: /year-archive/
-  - title: "Category"
+  - title: "BMO!"
     url: /categories/
-  - title: "Tags"
+  - title: "stuffs"
     url: /tags/ 
   - title: "About"
     url: /about/
