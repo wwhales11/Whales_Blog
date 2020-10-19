@@ -1,6 +1,6 @@
 ---
 title : 뭔갈 고치는 방법들
-category : stuffs
+tag : stuffs
 ---
 
 #일단 만들어 그리고 고쳐!
