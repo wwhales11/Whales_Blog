@@ -4,7 +4,7 @@ main:
     url: /year-archive/
   - title: "BMO!"
     url: /categories/
-  - title: "stuffs"
+  - title: "tag"
     url: /tags/ 
   - title: "About"
     url: /about/
