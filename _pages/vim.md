@@ -1,5 +1,5 @@
 ---
-title: "Vim_info"
+title: "Vim"
 permalink: /vim/
 
 ---
