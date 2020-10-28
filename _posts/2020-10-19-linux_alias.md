@@ -39,47 +39,60 @@ _posts폴더에 넣어야지 겨우 작동한다는 점이였다.
 
 
 ***	
-
+<br/>
+<br/>
+<br/>
 <구현> 	
-
+<br/>
 
 ```	
-$ alias bmo='cp ~/github/whales/_draft/2020-01-01-bmo.md ~/github/whales/_posts/; vim 2020-01-01-bmo.md;'	
-```	
+$ alias bmo='cp ~/github/whales/_draft/draft.md ~/github/whales/_posts/; cd ~/github/whales/_posts; vim draft.md;'	
+```
+<br/>
 
-
-이렇게 alias를 만들어 놓으면 'bmo'라는 명령어로 복사(cp)해서 _posts 파일에 넣고 바로 vim을 이용해서 수정 작성하면 된다.  	
+이렇게 alias를 만들어 놓으면 'bmo'라는 명령어로 복사(cp)해서 _posts 파일에 넣고 whales로 이동 해서  vim을 이용하여  draft를 수정작성하면 된다.  	
+<br/>
 
 물론 저장할 때	
+<br/>
 
 ```	
 :w 2020-10-19-얖.md 	
 ```	
+<br/>
 
 이런식으로 저장해야 된다. 다 같은 드래프트 파일이면 곤란하니까.	
 
+<br/>
 
 아직 파일 저장할 때 지킬 테마들의 특유의 "yyyy-mm-dd-제목.md" 형식을 어떻게 제목만으로 저장할 수 있는지 알고 싶다. 	
+<br/>
 기본 룰이라 안되려나	
 
-
+***
+<br/>
 #git push alias	
+<br/>
 
 alias로 또 좋은 단축키로 만든게 git push까지 명령어를 압축해서 쓰는거다.	
 
+<br/>
 ```	
 alias gg='git add .; git commit -m '\''UP'\''; git push;'	
 ```	
+<br/>
 
 이런 식으로 add, commit, push 까지 일련의 과정들을 alias 환경변수로 만들어서 쓰면 편하다.	
 
+<br/>
 만약 push명령에서 아이디랑 비밀번호 치는게 귀찮으면 	
 ```	
 git config --global credential.helper store	
 ```	
+<br/>
 
 이걸로 아이디랑 비번 캐시해두면 여러 입력들이 생략된다.	
-  
+<br/>
 <br/>  
 <br/>  
 <br/>  
